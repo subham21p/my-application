@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nvAboutUs" android:title="@string/abtUs"/>
+    <item android:id="@+id/nvCart" android:title="@string/cart" />
+    <item android:id="@+id/nvOrders" android:title="@string/oders"/>
+    <item android:id="@+id/nvSetting" android:title="@string/setting"/>
+    <item android:id="@+id/nvLogout" android:title="@string/logout"/>
+</menu>

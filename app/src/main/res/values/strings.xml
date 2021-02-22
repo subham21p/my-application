@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">OnlineShoping</string>
+
+    <string name="Grocery">Grocery</string>
+    <string name="Clothes">Clothes</string>
+    <string name="Electronic">Electronic</string>
+    <string name="Footwear">Footwear</string>
+    <string name="Cosmetics">Cosmetics</string>
+    <string name="Toys">Toys</string>
+    <string name="Jewellery">Jewellery</string>
+    <string name="Search">Search</string>
+    <string name="abtUs">About Us</string>
+    <string name="cart">Your Cart</string>
+    <string name="oders">Your Orders</string>
+    <string name="setting">Setting</string>
+    <string name="logout">Logout</string>
+    <string name="addCart">Add To Cart</string>
+    <string name="qyt">Quantity</string>
+    <string name="des">Description</string>
+    <string name="Rs">Rs.</string>
+    <string name="relatedProducr">Related Product</string>
+    <string name="cmnts">Comments</string>
+    <string name="moreCmnts">See More Comments</string>
+    <string name="YrName">Your Name</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="phoneNo">Phone No.</string>
+    <string name="backLogin">Back to Login</string>
+    <string name="registration">Registration</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="frgtPass">Forget Password ?</string>
+    <string name="regHere">Or Register Here</string>
+    <string name="login">Login</string>
+    <string name="entrEmail">Enter Email or Phone</string>
+    <string name="save">Save Your Pic</string>
+    <string name="update">Update Your Profile</string>
+    <string name="cnfmPass">Confirm Password</string>
+    <string name="submit">Submit</string>
+    <string name="buy">Buy</string>
+    <string name="delete">Delete</string>
+    <string name="noItems">No Items On Add Cart</string>
+    <string name="product">Product :</string>
+    <string name="subtotal">Subtotal = </string>
+    <string name="deliveryAdd">Delivery Address :</string>
+    <string name="currLoc">Current Location</string>
+    <string name="otherAdd">Or other Address</string>
+    <string name="yourOrders">Your Orders</string>
+    <string name="deliveryOn">Delivery On....</string>
+    <string name="deliveredOn">Delivered On</string>
+    <string name="review">Review</string>
+    <string name="viewReview">View Review</string>
+    <string name="totalPrice">Total Price</string>
+    <string name="wrtReview">Write Review</string>
+    <string name="rating">Give Rating</string>
+    <string name="ratingOutOf">(rate out of 5)</string>
+    <string name="updateReview">Update</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

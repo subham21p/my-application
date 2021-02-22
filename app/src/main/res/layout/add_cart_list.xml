@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@color/white">
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/networkImageViewACL"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewBrandACL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/networkImageViewACL"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewNameACL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/networkImageViewACL"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBrandACL" />
+
+    <TextView
+        android:id="@+id/textViewQuantityACL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/networkImageViewACL"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNameACL" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/Rs"
+        app:layout_constraintStart_toEndOf="@+id/networkImageViewACL"
+        app:layout_constraintTop_toBottomOf="@+id/textViewQuantityACL" />
+
+    <TextView
+        android:id="@+id/textViewPriceACL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textViewQuantityACL" />
+
+    <RatingBar
+        android:id="@+id/ratingBarACL"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:progressTint="@color/yellow"
+        app:layout_constraintStart_toEndOf="@+id/networkImageViewACL"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <!--
+    <Button
+        android:id="@+id/buttonBuyACL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/buy"
+        android:background="@drawable/button"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/networkImageViewACL" />
+-->
+
+    <Button
+        android:id="@+id/buttonDelectACL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/delete"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/networkImageViewACL" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutPlusACL"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/grey"
+        android:padding="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/networkImageViewACL">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/plus" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textViewCountACL"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_vertical"
+        android:text="1"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/relativeLayoutPlusACL"
+        app:layout_constraintTop_toBottomOf="@+id/networkImageViewACL"
+        tools:ignore="RtlCompat" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutMinusACL"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/grey"
+        android:padding="3dp"
+        app:layout_constraintEnd_toStartOf="@+id/textViewCountACL"
+        app:layout_constraintTop_toBottomOf="@+id/networkImageViewACL">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/minus" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/qyt"
+        app:layout_constraintEnd_toStartOf="@+id/relativeLayoutMinusACL"
+        app:layout_constraintTop_toBottomOf="@+id/networkImageViewACL" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
